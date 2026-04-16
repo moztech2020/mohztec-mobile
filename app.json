@@ -1,5 +1,3 @@
-
-
 {
   "expo": {
     "name": "MOHZTEC Guard",
@@ -8,7 +6,7 @@
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "mohztec",
-    "userInterfaceStyle": "dark", 
+    "userInterfaceStyle": "dark",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true,
@@ -22,6 +20,8 @@
       "package": "com.mohztec.guard",
       "permissions": [
         "VIBRATE",
+        "NOTIFICATIONS",
+        "VIBRATE",
         "NOTIFICATIONS"
       ]
     },
@@ -33,9 +33,22 @@
           "image": "./assets/images/splash-icon.png",
           "imageWidth": 200,
           "resizeMode": "contain",
-          "backgroundColor": "#020617" 
+          "backgroundColor": "#020617"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "13f4483d-11b0-4151-a502-8de92a78f844"
+      }
+    },
+    "owner": "mohztec",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/13f4483d-11b0-4151-a502-8de92a78f844"
+    }
   }
 }
